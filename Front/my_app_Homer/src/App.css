@@ -17,3 +17,31 @@
     transform: rotate(360deg);
   }
 }
+
+.FormHommer {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.FormHommer .form-data{
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.FormHommer .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right : 10px;
+  text-align: right;
+}
+
+.FormHommer .form-data input:not([type="submit"]){
+  flex-grow: 1;
+}
+
+.form-data {
+  color: rgb(255, 127, 225);
+}
+
